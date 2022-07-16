@@ -146,10 +146,16 @@ div.lastLine{
   left: 900px;
 }
 
-img.upButton{
-  width: 100px;
-  height: 100px;
-  position: absolute;
+img.arrow{
+  position:fixed; 
+  width: 80px;
+  height: 80px;
   right: 30px;
-  bottom: -50px;
+  bottom: 40px;
+  z-index: 99;
+  cursor:pointer;
+}
+
+img.arrow:hover {
+  transform: scale(1.10); 
 }
